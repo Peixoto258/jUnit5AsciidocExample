@@ -1,0 +1,42 @@
+= API Documentation
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+
+== Books
+
+This is the documentation for the Books API.
+
+=== List Books [GET]
+
+Request:
+include::{snippets}/http-request.adoc[]
+
+Response:
+include::{snippets}/http-response.adoc[]
+
+=== Get Book by ID [GET]
+
+Request:
+include::{snippets}/http-request.adoc[]
+
+Response:
+include::{snippets}/http-response.adoc[]
+
+=== Add Book [POST]
+
+Request:
+include::{snippets}/http-request.adoc[]
+
+Response:
+include::{snippets}/http-response.adoc[]
+
+=== Delete Book [DELETE]
+
+Request:
+include::{snippets}/http-request.adoc[]
+
+Response:
+include::{snippets}/http-response.adoc[]
